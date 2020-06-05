@@ -31,4 +31,4 @@ jobs:
       run: npm install --global surge
     
     - name: deploying using surge
-      run: surge ./ botcamp20.surge.sh --token ${{ secrets.st }}
+      run: surge ./ botcamp20.surge.sh --token ${{ secrets.ST }}
